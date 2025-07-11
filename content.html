@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home | Flipkart</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f3f6;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .banner {
+      background-color: #2874f0;
+      color: white;
+      font-size: 24px;
+      padding: 40px;
+      border-radius: 10px;
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      margin-top: 10px;
+      color: #333;
+    }
+
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .category-box {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+      padding: 30px 10px;
+      text-align: center;
+      font-weight: bold;
+      color: #333;
+      transition: 0.2s;
+      cursor: pointer;
+    }
+
+    .category-box:hover {
+      background-color: #e3f0ff;
+      color: #2874f0;
+      transform: scale(1.03);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="banner">Flipkart Big Saving Days</div>
+
+  <h2>Top Categories</h2>
+
+  <div class="category-grid">
+    <div class="category-box">Mobiles</div>
+    <div class="category-box">Smart TVs</div>
+    <div class="category-box">Laptops</div>
+    <div class="category-box">Fashion</div>
+    <div class="category-box">Watches</div>
+    <div class="category-box">Footwear</div>
+    <div class="category-box">Home Appliances</div>
+    <div class="category-box">Grocery</div>
+  </div>
+
+</body>
+</html>
